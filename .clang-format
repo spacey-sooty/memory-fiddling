@@ -1,0 +1,10 @@
+---
+BasedOnStyle: Google
+AlignOperands: 'true'
+NamespaceIndentation: Inner
+TabWidth: 4
+UseTab: Never
+IndentWidth: 4
+AllowShortFunctionsOnASingleLine: Inline
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
