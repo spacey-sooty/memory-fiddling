@@ -10,8 +10,11 @@ void printMenu() {
 }
 
 void printList(Node *root) {
-  printf("%d ->", root->data);
-  printList(root->next);
+  if (root == NULL) {
+    printf("No Nodes!\n");
+  } else {
+    printList(root->next);
+  }
 }
 
 Node *push(Node *head, int data) {
